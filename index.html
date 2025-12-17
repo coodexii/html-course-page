@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>HTML Course</title>  
+    <style> 
+      table, th, td{border: 1px solid black;}
+    </style>  <!--border table-->
+</head>
+
+<body>
+   <header>
+      <h1>HTML Course</h1>
+   </header> <!--title-->
+   <img src="html.jpg" height="150" width="150" alt="html logo"><!--logo-->
+   
+   <section> 
+      <h2>Description</h2>
+   </section>
+  
+   <p><!--description-->
+    <strong>HTML</strong> is a way to write and structure web pages.<br>
+    <strong>HTML</strong> is not a programming language in the actual sense, but rather a descriptive language, meaning that it is used to describe the page and distribute and arrange its content of texts, links, images, videos, etc.
+    It is the main component of any website.
+     <strong>HTML</strong> uses what are called <em>tags</em>, which are symbols, each of which has a specific task to perform. Some of them display the title, some display texts, some display images, links, or videos, and so on.
+    The browser understands these symbols or tags and displays them in the specific and required form.
+   </p><hr>
+
+   <p><b>Daily attendance times:</b><br><!--Time-->
+
+      8:00<sub>am</sub> to 11:00<sub>am</sub>
+   </p><hr>
+
+   <p><b>The Levels in this Course:</b><br><!--Level-->
+     1<sup>st</sup> level: HTML Basics.<br>
+     2<sup>nd</sup> level: Advanced concepts in HTML.
+
+   </p><hr>
+
+   <section>
+      <h2>Objectives</h2>
+   </section> <!--ol-->
+
+<ol type="I"> 
+   <li>Understanding the concept of HTML</li>
+   <li>Learn each tag and its purpose</li>
+   <li>Methods for adding text, Videos, and other common content to web pages</li>
+</ol>
+
+<h2>Requirements for this course</h2><!--ul-->
+<ul>
+   <li>Safari and Google Chrome browsers</li>
+   <li>Editor</li>
+</ul>
+
+<p>For reference, click Here</p><!--href-->
+<a href="https://www.bing.com/ck/a?!&&p=4da413907b6af31a1c7e2c15032adbf89b771a82c9270c38eedc5313ff2c6bf3JmltdHM9MTc2NDIwMTYwMA&ptn=3&ver=2&hsh=4&fclid=1954e945-d07f-6ff3-0aa2-fb66d1d36ecb&psq=satr&u=a1aHR0cHM6Ly9zYXRyLnR1d2FpcS5lZHUuc2Ev">Here</a>
+</p>
+
+<video width="700" controls  poster="cover.jpg"> <!--video-->
+<source src="vid.mp4" type="video/mp4">
+sorry,this video cannot be displayed
+</video>
+
+<audio controls><!--audio-->
+   <source src="voice.mp4" type="audio/mp4">
+</audio>
+
+
+<table><!--table-->
+   <caption>Lecture Schedule</caption><!--caption-->
+   <tr>
+
+ <th>Day</th>
+ <th>Place</th>
+
+   </tr>
+<tr>
+   <td>Sunday Monday </td><td>class A</td>
+</tr>
+
+<tr>
+   <td>Tuesday Wednesday </td><td>class B</td>
+  </tr>
+
+<tr> 
+   <td colspan="2">Thursday online</td><!--merge boxes-->
+</tr>
+
+</table>
+
+<hr>
+
+<section>
+   <h2>registration</h2>
+</section>
+
+<form>
+   <label for="name">name user:</label>
+   <input type="text" id ="name" name="Username" placeholder="Enter your name" required><!--input text-->
+
+   <p>Gender:</p>
+   <input type="radio" id="male" name="Gender" value="male"><!--input radio-->
+   <label for="male">Male</label>
+   <input type="radio" id="female" name="Gender" value="female">
+   <label for="female">Female</label>
+
+<p>Where did you hear about HTML?</p>
+<input type="checkbox" id="friend" name="friend"><!--checkbox-->
+<label for="friend">friend</label><br>
+<input type="checkbox" id="books" name="books">
+<label for="books">books</label><br>
+<input type="checkbox" id="social_media" name="social_media">
+<label for="social_media">social media</label><br>
+
+<label for="city">choose your city</label>
+<select id="city" name="city"><!--select-->
+   <option value="Al-Ryadh">Al-Ryadh</option><!--option-->
+   <option value="Jeddah">Jeddah</option>
+   <option value="Al-Kharj">Al-Kharj</option>
+</select><br>
+
+<input type="submit" value="registration">
+
+
+</form>
+
+</body>
+</html> 
